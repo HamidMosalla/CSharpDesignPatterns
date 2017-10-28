@@ -1,0 +1,1 @@
+﻿http://csharpindepth.com/Articles/General/Singleton.aspx
