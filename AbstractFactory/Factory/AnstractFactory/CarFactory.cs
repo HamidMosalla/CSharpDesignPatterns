@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AbstractFactory.Cars;
-using AbstractFactory.Cars.AbstractCars;
+﻿using AbstractFactory.Cars.AbstractCars;
 
-namespace AbstractFactory.Factory
+namespace AbstractFactory.Factory.AnstractFactory
 {
     public abstract class CarFactory
     {

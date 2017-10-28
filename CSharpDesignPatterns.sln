@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{734C21F0-242C-46AB-970B-71BF2D12DAB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{949D6D82-596D-4CFB-9B97-31D7DF1E56BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Bridge\Bridge.csproj", "{949D6D82-596D-4CFB-9B97-31D7DF1E56BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{14948BB8-9567-4AD9-929D-51FF4EFCFA27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{14948BB8-9567-4AD9-929D-51FF4EFCFA27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{531C7D56-00B1-4F37-AB4C-73AB133DD522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{531C7D56-00B1-4F37-AB4C-73AB133DD522}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullObject", "NullObject\NullObject.csproj", "{6C3098C6-B4AC-42F5-AEF9-70E6EFC1FB6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObject", "NullObject\NullObject.csproj", "{6C3098C6-B4AC-42F5-AEF9-70E6EFC1FB6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryAndUnitOfWork", "RepositoryAndUnitOfWork\RepositoryAndUnitOfWork.csproj", "{63FC136B-D09A-48D5-B7AD-CD8030FC04F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryAndUnitOfWork", "RepositoryAndUnitOfWork\RepositoryAndUnitOfWork.csproj", "{63FC136B-D09A-48D5-B7AD-CD8030FC04F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{D12A567F-2D6E-4D16-8A40-1D34E44E9396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{63FC136B-D09A-48D5-B7AD-CD8030FC04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63FC136B-D09A-48D5-B7AD-CD8030FC04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63FC136B-D09A-48D5-B7AD-CD8030FC04F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D12A567F-2D6E-4D16-8A40-1D34E44E9396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12A567F-2D6E-4D16-8A40-1D34E44E9396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12A567F-2D6E-4D16-8A40-1D34E44E9396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12A567F-2D6E-4D16-8A40-1D34E44E9396}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,8 @@
 using System;
 using System.Threading.Tasks;
+using RepositoryAndUnitOfWork.RepositoryInterfaces;
 
-namespace RepositoryAndUnitOfWork.RepositoryInterfaces
+namespace RepositoryAndUnitOfWork.UnitOfWorkParts
 {
     public interface IUnitOfWork : IDisposable
     {
