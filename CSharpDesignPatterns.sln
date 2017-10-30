@@ -17,13 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryAndUnitOfWork", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Command\Command.csproj", "{D12A567F-2D6E-4D16-8A40-1D34E44E9396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{8E08CCB0-89C8-4F14-87B2-4E695E78A910}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{8E08CCB0-89C8-4F14-87B2-4E695E78A910}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{E92120D2-C2F8-4D28-9E25-2B185867A9C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{E92120D2-C2F8-4D28-9E25-2B185867A9C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{061EF842-6741-4242-B95E-7A3204519A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{061EF842-6741-4242-B95E-7A3204519A4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{EAD9491F-BF63-4D2F-9C6F-35146908B109}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{EAD9491F-BF63-4D2F-9C6F-35146908B109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{886A56F3-FCFC-49AC-A588-0EDA273898EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{EAD9491F-BF63-4D2F-9C6F-35146908B109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD9491F-BF63-4D2F-9C6F-35146908B109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD9491F-BF63-4D2F-9C6F-35146908B109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
