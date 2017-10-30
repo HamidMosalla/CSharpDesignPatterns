@@ -16,6 +16,10 @@ namespace Builder
                         .HasGarage(true)
                         .Build();
 
+
+            //More info: https://www.codeproject.com/Articles/470476/Understanding-and-Implementing-Builder-Pattern-in
+            //Slightly modified version of above link
+
             // Lets create the Director first
             var manufacturer = new Manufacturer();
 
