@@ -1,6 +1,6 @@
 ﻿using System;
 using State.Refactored.Abstraction;
-using State.Refactored.StateMachine;
+using State.Refactored.StateMachineContext;
 
 namespace State
 {

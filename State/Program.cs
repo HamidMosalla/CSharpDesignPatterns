@@ -1,5 +1,5 @@
 ﻿using System;
-using State.Refactored.StateMachine;
+using State.Refactored.StateMachineContext;
 
 namespace State
 {
@@ -7,6 +7,14 @@ namespace State
     {
         public static void Main()
         {
+            /*https://stackoverflow.com/a/30424503/1650277
+             * Strategy pattern vs State pattern
+            States store a reference to the context object that contains them. Strategies do not.
+            States are allowed to replace themselves (IE: to change the state of the context object to something else), while Strategies are not.
+            Strategies are passed to the context object as parameters, while States are created by the context object itself.
+            Strategies only handle a single, specific task, while States provide the underlying implementation for everything (or most everything) the context object does.
+             */
+
             LegacyTest();
             Console.WriteLine();
             var gumballmachine = new GumballMachine(5);

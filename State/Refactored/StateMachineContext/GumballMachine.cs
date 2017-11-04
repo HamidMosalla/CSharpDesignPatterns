@@ -1,7 +1,7 @@
 ﻿using System;
 using State.Refactored.Abstraction;
 
-namespace State.Refactored.StateMachine
+namespace State.Refactored.StateMachineContext
 {
     public class GumballMachine
     {
