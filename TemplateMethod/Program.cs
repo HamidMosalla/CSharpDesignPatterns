@@ -1,5 +1,5 @@
 ﻿using System;
-using TemplateMethod.Implementations;
+using TemplateMethod.DrinkExample.Implementations;
 
 namespace TemplateMethod
 {

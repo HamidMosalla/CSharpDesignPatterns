@@ -1,0 +1,6 @@
+﻿http://codebetter.com/jeremymiller/2006/04/11/six-design-patterns-to-start-with/
+
+So what have we really accomplished here?  For one thing we’ve standardized the message processing.
+If we need to handle any new message types we can just create a new subclass and fill in the missing pieces.
+Somebody new to the project can create a new message type by following the established pattern.
+We’ve also eliminated some code duplication, and that’s always a good thing.

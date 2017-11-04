@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TemplateMethod.Abstraction
+namespace TemplateMethod.DrinkExample.Abstraction
 {
     public abstract class Beverage
     {

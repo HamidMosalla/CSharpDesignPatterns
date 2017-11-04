@@ -1,7 +1,7 @@
 ﻿using System;
-using TemplateMethod.Abstraction;
+using TemplateMethod.DrinkExample.Abstraction;
 
-namespace TemplateMethod.Implementations
+namespace TemplateMethod.DrinkExample.Implementations
 {
     class Coffee : Beverage
     {
