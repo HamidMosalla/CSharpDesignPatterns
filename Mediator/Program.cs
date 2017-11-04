@@ -26,10 +26,12 @@ namespace Mediator
             IUser user2 = new User(mediator, "Lisa");
             IUser user3 = new User(mediator, "Saurabh");
             IUser user4 = new User(mediator, "David");
+            IUser vipUser = new VipUser(mediator, "Hans");
             mediator.AddUser(user1);
             mediator.AddUser(user2);
             mediator.AddUser(user3);
             mediator.AddUser(user4);
+            mediator.AddUser(vipUser);
 
             user1.Send("Hi All");
         }
