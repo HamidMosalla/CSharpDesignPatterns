@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplateMethod", "TemplateM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{EAD9491F-BF63-4D2F-9C6F-35146908B109}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{886A56F3-FCFC-49AC-A588-0EDA273898EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{886A56F3-FCFC-49AC-A588-0EDA273898EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{731411EC-94C5-4D89-A7FF-542033ED289B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{886A56F3-FCFC-49AC-A588-0EDA273898EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731411EC-94C5-4D89-A7FF-542033ED289B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731411EC-94C5-4D89-A7FF-542033ED289B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731411EC-94C5-4D89-A7FF-542033ED289B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731411EC-94C5-4D89-A7FF-542033ED289B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
