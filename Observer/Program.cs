@@ -31,35 +31,36 @@ namespace Observer
 
             // Configure Observer pattern
 
-            ConcreteSubject s = new ConcreteSubject();
+            ConcreteSubject subject = new ConcreteSubject();
 
-            s.Attach(new ConcreteObserver(s, "X"));
+            subject.Attach(new ConcreteObserver(subject, "X"));
 
-            s.Attach(new ConcreteObserver(s, "Y"));
+            subject.Attach(new ConcreteObserver(subject, "Y"));
 
-            s.Attach(new ConcreteObserver(s, "Z"));
+            subject.Attach(new ConcreteObserver(subject, "Z"));
 
 
             // Change subject and notify observers
 
-            s.SubjectState = "ABC";
+            subject.SubjectState = "ABC";
 
-            s.Notify();
+            subject.Notify();
 
             #endregion
 
             #region .Net implementation of observer pattern
 
-            var weatherReport = new WeatherReport();
-            var germanyWeatherReport = new GermanyWeatherStation();
-            var iranWeatherReport = new IranWeatherStation();
-            var usWeatherReport = new UnitedStateWeatherStation();
+            var publisherWeatherStation = new WeatherReport();
 
-            weatherReport.WeatherChanged += germanyWeatherReport.GermanyWeatherChanged;
-            weatherReport.WeatherChanged += iranWeatherReport.IranWeatherChanged;
-            weatherReport.WeatherChanged += usWeatherReport.UnitedStateWeatherChanged;
+            var subscriberGermanyWeatherStation = new GermanyWeatherStation();
+            var subscriberIranWeatherStation = new IranWeatherStation();
+            var subscriberUnitedStateWeatherStation = new UnitedStateWeatherStation();
 
-            weatherReport.ReportWeather(new WeatherEventArgs(temperature: 30));
+            publisherWeatherStation.WeatherChanged += subscriberGermanyWeatherStation.GermanyWeatherChanged;
+            publisherWeatherStation.WeatherChanged += subscriberIranWeatherStation.IranWeatherChanged;
+            publisherWeatherStation.WeatherChanged += subscriberUnitedStateWeatherStation.UnitedStateWeatherChanged;
+
+            publisherWeatherStation.ReportWeather(new WeatherEventArgs(temperature: 30));
 
             #endregion
 

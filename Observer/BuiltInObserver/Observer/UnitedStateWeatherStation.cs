@@ -7,7 +7,7 @@ namespace Observer.BuiltInObserver.Observer
     {
         public void UnitedStateWeatherChanged(object sender, WeatherEventArgs e)
         {
-            Console.WriteLine($"US weather now is {e.Temperature + 2}");
+            Console.WriteLine($"US weather station receiving new transmission, temperature now is {e.Temperature + 2}");
         }
     }
 }
