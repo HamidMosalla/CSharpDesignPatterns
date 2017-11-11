@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="NormalImplementation\" />
-  </ItemGroup>
-
 </Project>
