@@ -3,13 +3,18 @@ using Composite.ComponentObject;
 
 namespace Composite.LeafObject
 {
-    internal class Leaf : Component
+    internal class Leaf : IGraphic
     {
-        public Leaf(string name) : base(name) { }
+        private readonly string _name;
 
-        public override void Display(int depth)
+        public Leaf(string name)
         {
-            Console.WriteLine(new string('-', depth) + name);
+            _name = name;
+        }
+
+        public void Display(int depth)
+        {
+            Console.WriteLine(new string('-', depth) + _name);
         }
     }
 }

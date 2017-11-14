@@ -10,13 +10,12 @@ namespace Composite
         {
 
 
-            ComponentObject.Composite root = new ComponentObject.Composite("root");
+            CompositeGraphic root = new CompositeGraphic("root");
             root.Add(new Leaf("Leaf A"));
             root.Add(new Leaf("Leaf B"));
 
-            ComponentObject.Composite comp = new ComponentObject.Composite("Composite X");
-            comp.Add(new Leaf("Leaf XA"));
-            comp.Add(new Leaf("Leaf XB"));
+            CompositeGraphic comp = new CompositeGraphic("Composite X");
+            comp.AddRange(new Leaf("Leaf XA"), new Leaf("Leaf XB"));
 
             root.Add(comp);
             root.Add(new Leaf("Leaf C"));
