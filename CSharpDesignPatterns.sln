@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memento", "Memento\Memento.csproj", "{8791FEAE-BD2D-4D7E-90B6-5EF95962BDE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{6DDDF76D-BF87-4D2F-94BC-9952119EC189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{6DDDF76D-BF87-4D2F-94BC-9952119EC189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{6DDDF76D-BF87-4D2F-94BC-9952119EC189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DDDF76D-BF87-4D2F-94BC-9952119EC189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DDDF76D-BF87-4D2F-94BC-9952119EC189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
