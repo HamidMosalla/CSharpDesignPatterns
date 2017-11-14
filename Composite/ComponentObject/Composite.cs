@@ -9,12 +9,12 @@ namespace Composite.ComponentObject
 
         public Composite(string name) : base(name) { }
 
-        public override void Add(Component component)
+        public void Add(Component component)
         {
             _children.Add(component);
         }
 
-        public override void Remove(Component component)
+        public void Remove(Component component)
         {
             _children.Remove(component);
         }

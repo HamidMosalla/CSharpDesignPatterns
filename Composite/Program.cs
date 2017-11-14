@@ -9,6 +9,7 @@ namespace Composite
         static void Main(string[] args)
         {
 
+
             ComponentObject.Composite root = new ComponentObject.Composite("root");
             root.Add(new Leaf("Leaf A"));
             root.Add(new Leaf("Leaf B"));
