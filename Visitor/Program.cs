@@ -26,6 +26,11 @@ namespace Visitor
             var visitor = new HtmlVisitor();
             doc.Accept(visitor);
             Console.WriteLine($"Plain text plus Hyperlink {visitor.Output}");
+
+            var doc2 = new Document(new PlainText { Text = "Plain" }, new Hyperlink { Text = "Hyper", Url = "Link" });
+            var visitor2 = new LatexVisitor();
+            doc.Accept(visitor);
+            Console.WriteLine($"Plain text plus Hyperlink {visitor.Output}");
         }
     }
 }
