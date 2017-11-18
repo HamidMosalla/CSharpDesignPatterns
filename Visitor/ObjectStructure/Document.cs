@@ -5,17 +5,17 @@ namespace Visitor.ObjectStructure
 {
     public class Document
     {
-        private List<DocumentPart> m_parts;
+        private readonly List<DocumentPart> _mParts;
 
         public Document(params DocumentPart[] documents)
         {
-            m_parts = new List<DocumentPart>();
-            m_parts.AddRange(documents);
+            _mParts = new List<DocumentPart>();
+            _mParts.AddRange(documents);
         }
 
         public void Accept(IVisitor visitor)
         {
-            foreach (DocumentPart part in this.m_parts) part.Accept(visitor);
+            foreach (DocumentPart part in this._mParts) part.Accept(visitor);
         }
     }
 }
