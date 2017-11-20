@@ -1,4 +1,6 @@
 ﻿using System;
+using Decorator.Component;
+using Decorator.Decorator;
 
 namespace Decorator
 {
@@ -6,7 +8,16 @@ namespace Decorator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            void PrintInfo(ICoffee coffee) => Console.WriteLine("Cost: " + coffee.GetCost() + "; Ingredients: " + coffee.GetIngredients());
+
+            ICoffee c = new SimpleCoffee();
+            PrintInfo(c);
+
+            c = new CoffeeWithMilk(c);
+            PrintInfo(c);
+
+            c = new CoffeeWithSprinkles(c);
+            PrintInfo(c);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Decorator.Component
 {
     public interface ICoffee
     {
-         double GetCost();
-         string GetIngredients();
+        double GetCost();
+        string GetIngredients();
     }
 }
