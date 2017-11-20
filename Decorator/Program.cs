@@ -28,6 +28,11 @@ namespace Decorator
 
             c = new CoffeeWithSprinkles(c);
             PrintInfo(c);
+
+
+
+            var coffeeWithMilk = new CoffeeWithMilk(new SimpleCoffee());
+            PrintInfo(coffeeWithMilk);
         }
     }
 }
