@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResponsibility", "Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{9CD57BBE-9A4F-40B8-B2F9-52C0A529B26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
