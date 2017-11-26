@@ -1,6 +1,7 @@
 ﻿using System.Collections;
+using Iterator.Iterator;
 
-namespace Iterator
+namespace Iterator.Aggregate
 {
     internal class ConcreteAggregate : Aggregate
     {
@@ -15,7 +16,7 @@ namespace Iterator
             set => _items.Insert(index, value);
         }
 
-        public override Iterator CreateIterator()
+        public override Iterator.Iterator CreateIterator()
         {
             return new ConcreteIterator(this);
         }

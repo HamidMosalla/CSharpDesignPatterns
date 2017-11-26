@@ -1,7 +1,7 @@
-﻿namespace Iterator
+﻿namespace Iterator.Aggregate
 {
     abstract class Aggregate
     {
-        public abstract Iterator CreateIterator();
+        public abstract Iterator.Iterator CreateIterator();
     }
 }

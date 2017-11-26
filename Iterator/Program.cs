@@ -1,4 +1,5 @@
 ﻿using System;
+using Iterator.Aggregate;
 
 namespace Iterator
 {
@@ -14,7 +15,7 @@ namespace Iterator
                 [3] = "Item D"
             };
 
-            Iterator i = a.CreateIterator();
+            Iterator.Iterator i = a.CreateIterator();
 
             Console.WriteLine("Iterating over collection:");
 
