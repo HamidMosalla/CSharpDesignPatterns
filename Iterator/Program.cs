@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using Iterator.Aggregate;
+using Iterator.BuiltIn;
 
 namespace Iterator
 {
@@ -7,7 +9,6 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
-
             /*
              * More info: https://en.wikipedia.org/wiki/Iterator_pattern
              * http://www.dofactory.com/net/iterator-design-pattern
@@ -38,6 +39,28 @@ namespace Iterator
             {
                 Console.WriteLine(item);
                 item = i.Next();
+            }
+
+            Console.WriteLine("========================== using the built in mechanisms or .Net==============================");
+
+            var myCollection = new MyCollection<int> { 2, 3, 4, 5 };
+
+            myCollection.Add(25);
+            myCollection.Add(34);
+            myCollection.Add(32);
+
+            foreach (var collectionItem in myCollection)
+            {
+                Console.WriteLine(collectionItem);
+            }
+
+            Console.WriteLine("===============================================================================================");
+
+            var enumerator = myCollection.GetEnumerator();
+
+            while (enumerator.MoveNext())
+            {
+                Console.WriteLine(enumerator.Current);
             }
 
             Console.ReadKey();
