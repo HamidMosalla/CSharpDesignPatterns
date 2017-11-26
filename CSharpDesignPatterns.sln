@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{734C21F0-242C-46AB-970B-71BF2D12DAB0}"
 EndProject
@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Comp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{263AE4E2-A47F-44C9-A4CC-B0DEEDD12045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{D88BB8E4-F91C-40A1-9A85-DA4CC002F145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06E9B0DE-83C3-48F3-B5B1-11DA11AB1090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88BB8E4-F91C-40A1-9A85-DA4CC002F145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88BB8E4-F91C-40A1-9A85-DA4CC002F145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88BB8E4-F91C-40A1-9A85-DA4CC002F145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88BB8E4-F91C-40A1-9A85-DA4CC002F145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
