@@ -8,7 +8,11 @@ namespace Prototype.ConcretePrototype
 
         public IPerson Clone()
         {
+            //shallow copy
             return (IPerson)this.MemberwiseClone();
+
+            //deep copy
+            //return (IPerson)this.Clone();
         }
 
         public override string ToString()
