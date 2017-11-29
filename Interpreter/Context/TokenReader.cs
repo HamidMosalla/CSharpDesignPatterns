@@ -14,15 +14,14 @@ namespace Interpreter.Context
         private IExpression ReadNextToken(List<string> tokenList)
         {
             int i;
+
             if (int.TryParse(tokenList.First(), out i))  //if the token is integer (terminal)
             {
                 tokenList.RemoveAt(0);   //process terminal expression
                 return new NumberExpression(i);
             }
-            else
-            {
-                return ReadNonTerminal(tokenList);  //process nonTerminal expression
-            }
+
+            return ReadNonTerminal(tokenList);  //process nonTerminal expression
         }
 
         private IExpression ReadNonTerminal(List<string> tokenList)

@@ -2,15 +2,16 @@
 {
     public class NumberExpression : IExpression
     {
-        int number;
+        readonly int _number;
+
         public NumberExpression(int i)
         {
-            number = i;
+            _number = i;
         }
 
         int IExpression.Interpret()
         {
-            return number;
+            return _number;
         }
     }
 }

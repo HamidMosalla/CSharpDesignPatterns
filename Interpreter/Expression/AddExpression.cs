@@ -2,8 +2,8 @@
 {
     public class AddExpression : IExpression
     {
-        IExpression leftExpression;
-        IExpression rightExpression;
+        readonly IExpression leftExpression;
+        readonly IExpression rightExpression;
 
         public AddExpression(IExpression left, IExpression right)
         {
