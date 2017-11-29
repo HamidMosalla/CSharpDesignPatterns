@@ -2,18 +2,18 @@
 {
     public class AddExpression : IExpression
     {
-        readonly IExpression leftExpression;
-        readonly IExpression rightExpression;
+        readonly IExpression _leftExpression;
+        readonly IExpression _rightExpression;
 
         public AddExpression(IExpression left, IExpression right)
         {
-            leftExpression = left;
-            rightExpression = right;
+            _leftExpression = left;
+            _rightExpression = right;
         }
 
         int IExpression.Interpret()
         {
-            return leftExpression.Interpret() + rightExpression.Interpret();
+            return _leftExpression.Interpret() + _rightExpression.Interpret();
         }
     }
 }

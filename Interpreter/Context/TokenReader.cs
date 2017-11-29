@@ -28,13 +28,14 @@ namespace Interpreter.Context
         {
             string token = tokenList.First();
             tokenList.RemoveAt(0);   //read the symbol
+
             IExpression left = ReadNextToken(tokenList); //read left expression
             IExpression right = ReadNextToken(tokenList);  //read right expression
 
-            if (token == "+")
-                return new AddExpression(left, right);
-            else if (token == "-")
-                return new SubtractExpression(left, right);
+            if (token == "+") return new AddExpression(left, right);
+
+            if (token == "-") return new SubtractExpression(left, right);
+
             return null;
         }
     }
