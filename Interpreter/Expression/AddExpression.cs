@@ -15,5 +15,10 @@
         {
             return _leftExpression.Interpret() + _rightExpression.Interpret();
         }
+
+        public override string ToString()
+        {
+            return $"Add Expression {nameof(_leftExpression)}: {_leftExpression}, {nameof(_rightExpression)}: {_rightExpression}";
+        }
     }
 }

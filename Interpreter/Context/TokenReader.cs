@@ -6,6 +6,7 @@ namespace Interpreter.Context
 {
     public class TokenReader
     {
+        //"+ - 10 2 3"
         public IExpression ReadToken(List<string> tokenList)
         {
             return ReadNextToken(tokenList);
@@ -13,9 +14,7 @@ namespace Interpreter.Context
 
         private IExpression ReadNextToken(List<string> tokenList)
         {
-            int i;
-
-            if (int.TryParse(tokenList.First(), out i))  //if the token is integer (terminal)
+            if (int.TryParse(tokenList.First(), out var i))  //if the token is integer (terminal)
             {
                 tokenList.RemoveAt(0);   //process terminal expression
                 return new NumberExpression(i);

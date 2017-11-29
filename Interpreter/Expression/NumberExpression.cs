@@ -13,5 +13,10 @@
         {
             return _number;
         }
+
+        public override string ToString()
+        {
+            return $"Number Expression {nameof(_number)}: {_number}";
+        }
     }
 }
