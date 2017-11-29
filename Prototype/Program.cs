@@ -17,6 +17,9 @@ namespace Prototype
                 Co-opt one instance of a class for use as a breeder of all future instances.
                 The new operator considered harmful.
 
+            Prototypes are useful when object initialization is expensive, and you anticipate few variations on the initialization parameters.
+            In this context, Prototype can avoid expensive "creation from scratch", and support cheap cloning of a pre-initialized prototype.
+
             More info: https://en.wikipedia.org/wiki/Prototype_pattern
             This pattern is used to:
 
