@@ -8,6 +8,7 @@ namespace TemplateMethod
         static void Main(string[] args)
         {
             /*
+             * More info: https://en.wikipedia.org/wiki/Template_method_pattern
              Usage
              The template method is used in frameworks, where each implements the invariant parts of a domain's architecture, leaving "placeholders" for customization options.
              This is an example of inversion of control. The template method is used for the following reasons:
