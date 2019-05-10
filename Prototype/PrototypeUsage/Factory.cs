@@ -22,7 +22,7 @@ namespace Prototype.PrototypeUsage
             {
                 return Prototypes.GetValueOrDefault(type).Clone();
             }
-            catch (NullReferenceException ex)
+            catch (NullReferenceException)
             {
                 Console.WriteLine("Prototype with name: " + type + ", doesn't exist");
                 return null;
